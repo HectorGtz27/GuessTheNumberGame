@@ -1,23 +1,6 @@
 'use strict';
 
-/*  
-// This line of code is used to select the element with the class of 'message' and then visualize the text content of that element to '🎉 Correct Number!'.
-console.log(document.querySelector('.message').textContent);
 
-// This line of code is used to select the element with the class of 'message' and then change the text content of that element to '🎉 Correct Number!'.
-document.querySelector('.message').textContent = '🎉 Correct Number!';
-
-console.log(document.querySelector('.message').textContent);
-
-// This line of code is used to select the element with the class of 'number' and then visualize the text content of that element to 13.
-document.querySelector('.number').textContent = 13;
-document.querySelector('.score').textContent = 10;
-
-// This line of code is used to select the element with the class of 'guess' and then change the value of that element to 23.
-document.querySelector('.guess').value = 23;
-// This line of code is used to select the element with the class of 'guess' and then visualize the value of that element.
-console.log(document.querySelector('.guess').value);      
-*/
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
